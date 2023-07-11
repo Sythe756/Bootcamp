@@ -226,3 +226,64 @@ justify-content: space-between;
   border-radius: 5px;
 }
 
+.thirdrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.dd2 {
+  position: relative;
+}
+.new20 {
+  font-size: 20px;
+  color: white;
+  background-color: green;
+  padding: 20px;
+  font-family: cursive;
+  border-radius: 100px;
+  position: absolute;
+  left: 0px;
+}
+.new21 {
+  font-size: 20px;
+  color: white;
+  background-color: red;
+  padding: 20px;
+  font-family: cursive;
+  border-radius: 100px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.divv {
+  position: relative;
+}
+.price50 {
+  color: gold;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 100px;
+}
+
+.butt20 {
+  font-size: large;
+  margin-left: 100px;
+  padding: 8px;
+  opacity: 0.4;
+  color: gold;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+}
+.footcontainer {
+  border: 5px solid gray;
+  padding: 25px;
+  background-color: gray;
+}
+.oxo {
+  margin: 30px;
+  color: white;
+  text-decoration: none;
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
