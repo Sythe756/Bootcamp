@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+}
+body {
+  background-color: rgb(26, 25, 25)
+}
+.navbar {
+background-color: black;
+padding: 30px;
+display: flex;
+justify-content: space-between;
+}
+.olf {
+  text-decoration: underline;
+  color: gold;
+  font-size: x-large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 15px;
+}
+.elf{
+  text-decoration: none;
+  color: gold;
+  font-size: x-large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 15px;
+}
+.stuff {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.money {
+  font-size: 20px;
+  background-color: rgb(26, 25, 25);
+  border: none;
+  color: gold;
+  margin-top: 40px;
+}
+.gender {
+  font-size: 20px;
+  background-color: rgb(26, 25, 25);
+  border: none;
+  color: gold;
+  margin-top: 40px;
+}
+.firstrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.st {
+  position: relative;
+}
+.new10 {
+  font-size: 20px;
+  color: white;
+  background-color: blue;
+  padding: 20px;
+  font-family: cursive;
+  border-radius: 100px;
+  position: absolute;
+  right: 0;
+  top: 0;
+} 
+
+.new2 {
+  font-size: 20px;
+  color: white;
+  background-color: red;
+  padding: 20px;
+  font-family: cursive;
+  border-radius: 100px;
+  position: absolute;
+  left: 0px;
+}
+
+
+
+
+.nd {
+  position: relative;
+}
+.new11 {
+  font-size: 20px;
+  color: white;
+  background-color: blue;
+  padding: 20px;
+  font-family: cursive;
+  border-radius: 100px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.new3 {
+  font-size: 20px;
+  color: white;
+  background-color: red;
+  padding: 20px;
+  font-family: cursive;
+  border-radius: 100px;
+  position: absolute;
+  left: 0px;
+}
+
+
+
+
+.rd {
+  position: relative;
+}
+
+.new12 {
+  font-size: 20px;
+  color: white;
+  background-color: blue;
+  padding: 20px;
+  font-family: cursive;
+  border-radius: 100px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.new4 {
+  font-size: 20px;
+  color: white;
+  background-color: red;
+  padding: 20px;
+  font-family: cursive;
+  border-radius: 100px;
+  position: absolute;
+  left: 0px;
+
+}
+
+
+
+
+.th5 {
+  position: relative;
+}
+.new13 {
+  font-size: 20px;
+  color: white;
+  background-color: blue;
+  padding: 20px;
+  font-family: cursive;
+  border-radius: 100px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.new5 {
+  font-size: 20px;
+  color: white;
+  background-color: red;
+  padding: 20px;
+  font-family: cursive;
+  border-radius: 100px;
+  position: absolute;
+  left: 0px;
+}
+.price4 {
+  color: gold;
+  font-size: 20px;
+  text-align: center;
+}
+
+.butt1 {
+  font-size: large;
+  text-align: center;
+  padding: 8px;
+  opacity: 0.4;
+  color: gold;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+}
+.secondrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.dd {
+  position: relative;
+}
+.neww {
+  font-size: 20px;
+  color: white;
+  background-color: red;
+  padding: 20px;
+  font-family: cursive;
+  border-radius: 100px;
+  position: absolute;
+  left: 0px;
+}
+.newww {
+  font-size: 20px;
+  color: white;
+  background-color: blue;
+  padding: 20px;
+  font-family: cursive;
+  border-radius: 100px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.divm {
+  position: relative;
+}
+.price5 {
+  color: gold;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 100px;
+}
+
+.butt2 {
+  font-size: large;
+  margin-left: 100px;
+  padding: 8px;
+  opacity: 0.4;
+  color: gold;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+}
+
