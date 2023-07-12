@@ -21,18 +21,186 @@ body{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   margin-top: 20px;
 }
+
+.rightside {
+  position: relative;
+}
+.purp {
+  position: absolute;
+  right: 0;
+}
+.relative {
+  position: relative;
+
+}
+.profile {
+  font-size: 130px;
+  position: absolute;
+  right: 348px;
+  color: white;
+  top: 50px;
+}
+
+.small {
+  position: relative;
+}
+.hello {
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  right: 370px;
+  top: 200px;
+}
+.enter {
+  position: absolute;
+  font-size: 30px;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  right: 80px;
+  top: 250px;
+
+}
+.register {
+  position: absolute;
+  border: 4px solid white;
+  right: 325px;
+  top: 300px;
+  padding: 10px 40px 10px 40px;
+  border-radius: 100px;
+}
+.register1 {
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+}
+
+.register2 {
+  font-size: 35px;
+  color: white;
+  padding: 3px;
+}
+
+
+
+
+
+
+
+.leftside {
+  /* background-color: white; */
+  /* border: 10px solid white; */
+  padding-bottom: 520px;
+  margin-right: 843px;
+  position: relative;
+}
+.log {
+  position: absolute;
+  font-size: 40px;
+  font-family: fantasy;
+  font-weight: bold;
+  color: gold;
+  left: 300px;
+  top: 90px;
+}
+.email {
+  font-size: 20px;
+  padding: 10px 100px 10px 10px;
+  position: absolute;
+  color: black;
+  background-color: yellow;
+  border: none;
+  border-radius: 10px;
+  left: 200px;
+  top: 180px;
+}
+.pass {
+  font-size: 20px;
+  padding: 10px 100px 10px 10px;
+  position: absolute;
+  color: black;
+  background-color: yellow;
+  border: none;
+  border-radius: 10px;
+  left: 200px;
+  top: 250px;
+}
+
+.check {
+  position: absolute;
+  font-size: 15px;
+  color: yellow;
+  left: 210px;
+  top: 310px;
+  background-color: yellow;
+}
+
+.check1 {
+  position: absolute;
+  font-size: large;
+  font-family: monospace;
+  color: yellow;
+  left: 230px;
+  top: 309px;
+}
+
+.logbutt {
+  font-size: 20px;
+  padding: 10px 130px 10px 120px;
+  position: absolute;
+  color: black;
+  background-color: yellow;
+  border: none;
+  border-radius: 10px;
+  left: 217px;
+  top: 360px;
+}
+.line {
+  font-size: large;
+  color: gold;
+  position: absolute;
+  padding: 20px;
+  top: 575px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#face {
+  color: yellow;
+  font-size: 35px;
+  position: absolute;
+  left: 100px;
+  top: 630px;
+}
+#insta {
+  color: yellow;
+  font-size: 35px;
+  position: absolute;
+  left: 130px;
+  top: 630px;
+}
+#git {
+  color: yellow;
+  font-size: 35px;
+  position: absolute;
+  left: 170px;
+  top: 630px;
+}
+.copy {
+  position: absolute;
+  left: 630px;
+  top: 660px;
+  color: yellow;
+}
+
 .foot {
-  position: fixed;
-  left: 0;
-  bottom: 0;
   width: 100%;
   background-color: gold;
   color: black;
   text-align: center;
+  position: absolute;
+  bottom: -0;
 }
 .nay {
   font-size: larger;
   margin-left: 10px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  
 }
