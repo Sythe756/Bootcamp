@@ -1,0 +1,21 @@
+
+.container {
+  border: 5px solid black;
+  width: 500px;
+  height: 630px;
+  display: grid;
+  grid-template-rows: 30px 100px  100px 100px 100px 100px 100px;
+  grid-template-columns: 100fr 100px 100px 100px 100px;
+  grid-template-areas: 'cell1 cell1 cell1 cell1 cell1';
+}
+.cell1 {
+  grid-area: cell1;
+  border-bottom: 5px solid;
+  grid-gap: 10px;
+}
+.cell2 {
+  grid-area: cell2;
+  border: 5px solid red;
+}
+
+

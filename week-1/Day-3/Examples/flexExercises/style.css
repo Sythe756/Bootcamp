@@ -1,0 +1,39 @@
+.container {
+  border: 5px solid red;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.item1 {
+  background-color: aqua;
+  width: 290px;
+  display: flex;
+  height: 30px;
+  color: white;
+  margin: 3px;
+  font-size: 25px;
+  justify-content: center;
+}
+.item2 {
+  background-color: aqua;
+  width: 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 180px;
+  color: white;
+  font-size: 25px;
+}
+.item3 {
+  background-color: aqua;
+  color: white;
+  width: 290px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  margin: 3px;
+  font-size: 25px;
+}

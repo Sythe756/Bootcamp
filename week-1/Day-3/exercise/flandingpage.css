@@ -1,0 +1,91 @@
+/* @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"; */
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  border: 3px solid #242020;
+  height: 75px;
+  background: #242020;
+}
+.nav {
+  position: relative;
+  height: 80px;
+}
+#cube {
+  color: red;
+  font-size: 70px;
+  padding: 10px;
+}
+.menu {
+  position: absolute;
+  right: 500px;
+  top: 24px;
+  border: none;
+  border-radius: 10px;
+  background-color: #242020;
+  color: white;
+  font-size: larger;
+}
+.text {
+  font-size: 20px;
+  display: flex;
+  width: 300px;
+  position: absolute;
+  right: 150px;
+  justify-content: space-between;
+  top: 24px;
+  color: white;
+}
+.butt {
+  font-size: 20px;
+  position: absolute;
+  right: 20px;
+  top: 17px;
+  background-color: red;
+  color: white;
+  padding: 7px;
+  border-radius: 5px;
+  border: none;
+}
+#stripe {
+  position: absolute;
+  top: 500px;
+  left: 500px;
+  font-size: 70px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#lorem {
+  position: absolute;
+  top: 600px;
+  left: 500px;
+  font-size: 30px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#we {
+  position: absolute;
+  top: 750px;
+  right: 290px;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#wee {
+  position: absolute;
+  top: 750px;
+  right: 450px;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+  padding: 40px;
+}
+.box {
+  padding: 0;
+}
+#m {
+  /* border: 4px solid red; */
+}
