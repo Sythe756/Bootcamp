@@ -1,0 +1,14 @@
+{
+  "grammarly.selectors": [
+    {
+      "language": "html",
+      "scheme": "file"
+    }
+  ],
+  "grammarly.config.documentDialect": "british",
+  "grammarly.config.suggestions.ConjunctionAtStartOfSentence": true,
+  "grammarly.config.suggestions.InformalPronounsAcademic": true,
+  "grammarly.config.suggestions.OxfordComma": true,
+  "grammarly.config.suggestions.PassiveVoice": true,
+  "grammarly.startTextCheckInPausedState": true
+}
