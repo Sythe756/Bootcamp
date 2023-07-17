@@ -1,3 +1,4 @@
+import random
 string = input("The string must be 10 characters long: ")
 
 if len(string) < 10:
@@ -12,5 +13,9 @@ last_character = string[-1]
 print("First Character:" , first_character)
 print("Last Character:", last_character)
 
-for string in string:
-  print(string)
+for i in range(len(string)):
+  print(string[0:i+1])
+
+s_shuffle= ''.join(random.sample(string, len(string)))
+print(s_shuffle)
+
