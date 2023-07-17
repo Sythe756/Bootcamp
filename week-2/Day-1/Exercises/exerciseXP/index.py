@@ -43,15 +43,15 @@ if number % 2 != 0:
 #exercise 8
 name = input("Enter you name: ")
 
-if name == "Anas" or "anas" or "rasmally" or "Rasmally":
+if name == "Anas":
   print("Yay,we have da same name :>")
 else:
   print("Noo, we dont have the same name :<")
   
 #exercise 9
-height = int(input("Write your name in INCHES: "))
-
-if height >= 57:
+height_inch = float(input("Write your name in INCHES: "))
+height_cm = height_inch * 2.54
+if height_cm >= 145:
   print("You are tall enough to ride.")
 else:
   print("You need to grow some more to ride.")
