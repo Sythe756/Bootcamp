@@ -18,4 +18,3 @@ for i in range(len(string)):
 
 s_shuffle= ''.join(random.sample(string, len(string)))
 print(s_shuffle)
-

@@ -49,7 +49,7 @@ else:
   print("Noo, we dont have the same name :<")
   
 #exercise 9
-height_inch = float(input("Write your name in INCHES: "))
+height_inch = float(input("Write your height in INCHES: "))
 height_cm = height_inch * 2.54
 if height_cm >= 145:
   print("You are tall enough to ride.")
