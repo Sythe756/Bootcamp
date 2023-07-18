@@ -84,21 +84,33 @@
 
 #exercise 9
 
-total_cost = 0
-family = []
-while True:
-  age = input("Enter your age(or type `done` if finished): ")
-  if age.lower() == "done":
-      break
-  age = int(age)
-  if age < 3:
-      ticket_cost = 0
-  elif age >= 3 and age <= 12:
-      ticket_cost = 10
-  else:
-      ticket_cost = 15
-  family.append((age, ticket_cost))
-  total_cost += ticket_cost
+# total_cost = 0
+# family = []
+# while True:
+#   age = input("Enter your age(or type `done` if finished): ")
+#   if age.lower() == "done":
+#       break
+#   age = int(age)
+#   if age < 3:
+#       ticket_cost = 0
+#   elif age >= 3 and age <= 12:
+#       ticket_cost = 10
+#   else:
+#       ticket_cost = 15
+#   family.append((age, ticket_cost))
+#   total_cost += ticket_cost
   
-print(f"total cost of all tickets: ${total_cost}")
+# print(f"total cost of all tickets: ${total_cost}")
 
+#exercise 10
+sandwich_orders = ["Tuna sandwich", "Pastrami sandwich", "Avocado sandwich", "Pastrami sandwich", "Egg sandwich", "Chicken sandwich", "Pastrami sandwich"]
+
+while "Pastrami sandwich" in sandwich_orders:
+  sandwich_orders.remove("Pastrami sandwich")
+
+finished_sandwiches = []
+
+while sandwich_orders:
+    sandwich = sandwich_orders.pop(0)
+    finished_sandwiches.append(sandwich)
+    print("I made your", sandwich.lower())
