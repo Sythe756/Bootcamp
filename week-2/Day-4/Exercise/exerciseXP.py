@@ -51,50 +51,50 @@ def make_shirt(size="large",text="I Love Python"):
 make_shirt("small","hello")
 
 #EX6
-# magician_names = ['Harry Houdini', 'David Blaine', 'Criss Angel']
+magician_names = ['Harry Houdini', 'David Blaine', 'Criss Angel']
 
-# def show_magicians():
-#   for x in range(len(magician_names)):
-#     print(magician_names[x])
+def show_magicians():
+  for x in range(len(magician_names)):
+    print(magician_names[x])
 
-# def make_great():
-#   for y in range(len(magician_names)):
-#     magician_names[y] = "the Great " + magician_names[y]
+def make_great():
+  for y in range(len(magician_names)):
+    magician_names[y] = "the Great " + magician_names[y]
 
-# print("Original Magicians:")
-# show_magicians()
-# make_great()
-# print("Magicians with 'the Great' added:")
-# show_magicians()
+print("Original Magicians:")
+show_magicians()
+make_great()
+print("Magicians with 'the Great' added:")
+show_magicians()
 
 # #EX7
-# def get_randm_temp(season):
-#   y = {
-#         'winter': (-10, 16),
-#         'spring': (5, 25),
-#         'summer': (20, 40),
-#         'autumn': (10, 30)
-#     }
-#   if season.lower() in y:
-#         lower_limit, upper_limit = y[season.lower()]
-#   return random.randint(lower_limit, upper_limit)
+def get_randm_temp(season):
+  y = {
+        'winter': (-10, 16),
+        'spring': (5, 25),
+        'summer': (20, 40),
+        'autumn': (10, 30)
+    }
+  if season.lower() in y:
+        lower_limit, upper_limit = y[season.lower()]
+  return random.randint(lower_limit, upper_limit)
 
-# def main():
-#     season = input("Enter the current season (winter, spring, summer, or autumn): ")
-#     temperature = get_randm_temp(season)
-#     print(f"The temperature right now is {temperature} degrees Celsius.")
-#     if temperature <= 0:
-#       print("brr, if you want to turn to ice go outside")
-#     elif temperature <= 16:
-#       print("Quite chilly! Don’t forget your coat")
-#     elif temperature <= 23:
-#       print("the perfect day to go out")
-#     elif temperature <= 32:
-#       print("Turn the air conditioner on because you will be sweating a lot today")
-#     else:
-#       print("If you don't use sunscreen, you will be returning home with a lot of sun burns")
+def main():
+    season = input("Enter the current season (winter, spring, summer, or autumn): ")
+    temperature = get_randm_temp(season)
+    print(f"The temperature right now is {temperature} degrees Celsius.")
+    if temperature <= 0:
+      print("brr, if you want to turn to ice go outside")
+    elif temperature <= 16:
+      print("Quite chilly! Don’t forget your coat")
+    elif temperature <= 23:
+      print("the perfect day to go out")
+    elif temperature <= 32:
+      print("Turn the air conditioner on because you will be sweating a lot today")
+    else:
+      print("If you don't use sunscreen, you will be returning home with a lot of sun burns")
 
-# main()
+main()
 
 
 #EX5(starwars)
@@ -124,3 +124,19 @@ data = [
         "answer": "Wookiee"
     }
 ]
+wrong_ans = []
+def starWars():
+  correctanswers = 0
+  incorrectanswers = 0
+  for i in data:
+    print(i["question"])
+    answer = input("Enter your answer: ")
+    if answer.lower() == i["answer"].lower():
+      correctanswers += 1
+    else:
+      incorrectanswers += 1
+      wrong_ans.append(answer)
+      print("Your score is",correctanswers ,"/ 6\n")
+
+
+starWars()
