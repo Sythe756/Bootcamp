@@ -35,3 +35,32 @@
 
 # for letter in alphabets:
 #   print(f"{checkForVowelOrConsonent} is a {letter}")
+
+# #EX 6
+
+# user = input("Please enter 7 words: ")
+# words = user.split()
+# user2 = input("now enter a letter ex. 'a': ")
+# letters = user2[0]
+
+# for x in words:
+#   if letters in x:
+#     print(f"'{letters}' is in the word '{x}' at index {x.index(letters)}.")
+#   else:
+#     print(f"'{letters }' is not in the word '{x}'.")
+
+# #EX7
+# # Create a list of numbers from one to one million
+# numbers = list(range(1, 1000001))
+
+# # Use min() and max() to verify the range
+# min_number = min(numbers)
+# max_number = max(numbers)
+
+# print("Minimum number in the list:", min_number)
+# print("Maximum number in the list:", max_number)
+
+# # Use sum() to calculate the sum of a million numbers
+# sum_of_numbers = sum(numbers)
+# print("Sum of a million numbers:", sum_of_numbers)
+
