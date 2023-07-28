@@ -45,3 +45,13 @@ if __name__ == "__main__":
 
     for circle in circles:
         print(circle)
+
+if circle3 > circle2:
+    print(f"circle3 is bigger")
+else:
+    print("circle2 is bigger")
+
+if circle1 == circle3:
+    print("they are equal")
+else:
+    print("they are not equal")
