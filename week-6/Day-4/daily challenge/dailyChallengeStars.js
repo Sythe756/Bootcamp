@@ -17,3 +17,11 @@ for (let j = 0; j < 6; j++) {
   i =  i + "*"
   console.log(i)
 }
+
+for (let z = 0; z < 6;z++) {
+  let y = ""
+  for (let k = 0; k <= z; k++){
+    y += "*"
+  }
+  console.log(y)
+}
