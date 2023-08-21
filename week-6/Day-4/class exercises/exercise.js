@@ -1,30 +1,30 @@
-// //Ex1 
-// //1. Create these variables and give them values:
+//Ex1 
+//1. Create these variables and give them values:
 
-// //addressNumber
-// //addressStreet
-// //country
+//addressNumber
+//addressStreet
+//country
 
 // let addressNumber = 526
 // let addressStreet = "someRoad"
 // let country = "Mauritius"
 
-// // 2. Write a variable named globalAddress, and concatenate inside, the variables:
+// 2. Write a variable named globalAddress, and concatenate inside, the variables:
 
-// //     addressNumber
-// //     addressStreet
-// //     country
+//     addressNumber
+//     addressStreet
+//     country
 
 // let globalAddress = `I live in ${country}, ${addressNumber} at ${addressStreet}`
 
-// // In order to create a sentence
+// In order to create a sentence
 
-// // 3. Display globalAddress Example: globalAddress should display « I live in BenYehuda 5, in Israel » 
+// 3. Display globalAddress Example: globalAddress should display « I live in BenYehuda 5, in Israel » 
 
 // console.log(globalAddress)
 
 
-// // EX2
+// EX2
 // let birthYear = 2011
 // let futureYear = 2023
 // let possibleFutureYear = futureYear - birthYear
@@ -135,23 +135,23 @@
 
 //     if the item is not a string, go out of the loop.
 //     if the item is a string, display it.
-let names= ["john", "sarah", 23, "Rudolf",34]
+// let names= ["john", "sarah", 23, "Rudolf",34]
 
-for (let i = 0; i < names.length;i++){
-let item = names[i];
-  if (typeof(item) != "string") {
-    continue
-}
-if (item.charAt(0)!= item.charAt(0).toUpperCase()) {
-item = names[i].charAt(0).toUpperCase() + item.slice(1)
-}
-console.log(item)
-}
-for (let i = 0; i < names.length; i++) {
-  let item = names[i];
-  if (typeof (item) != 'string') {
-    break
-  } else {
-    console.log(item)
-  }
-}
+// for (let i = 0; i < names.length;i++){
+// let item = names[i];
+//   if (typeof(item) != "string") {
+//     continue
+// }
+// if (item.charAt(0)!= item.charAt(0).toUpperCase()) {
+// item = names[i].charAt(0).toUpperCase() + item.slice(1)
+// }
+// console.log(item)
+// }
+// for (let i = 0; i < names.length; i++) {
+//   let item = names[i];
+//   if (typeof (item) != 'string') {
+//     break
+//   } else {
+//     console.log(item)
+//   }
+// }
