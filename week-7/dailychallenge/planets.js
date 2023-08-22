@@ -23,12 +23,12 @@ let planets = [
   {
     name: "Jupiter",
     colorClass: "planet-jupiter",
-    moons: 80
+    moons: 95
   },
   {
     name: "Saturn",
     colorClass: "planet-saturn",
-    moons: 82
+    moons: 146
   },
   {
     name: "Uranus",
@@ -120,9 +120,6 @@ function createPlanetElement(planet) {
       planetDiv.appendChild(moonDiv);
     }
   }
-
-
-
   return planetDiv;
 }
 
